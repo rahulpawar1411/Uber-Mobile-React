@@ -1,5 +1,5 @@
 import React from 'react'
-import {  HashRouter as Router , Routes, Route } from 'react-router-dom';
+import {  HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home'
 import Profile from './Pages/Profile';
 import FindDriver from './Pages/FindDriver'
