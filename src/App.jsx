@@ -13,7 +13,7 @@ const App = () => {
   return (
     <BrowserRouter basename='/Uber-Mobile-React'>
       <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route path='/Uber-Mobile-React' element={<Home/>} />
         <Route path='/profile' element={<Profile/>} />
         <Route path='/FindDriver' element={<FindDriver/>} />
         <Route path='/done' element={<Done/>} />
