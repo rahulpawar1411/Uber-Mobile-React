@@ -11,7 +11,7 @@ import Payment from './Pages/Payment';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/Uber-Mobile-React'>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/profile' element={<Profile/>} />
